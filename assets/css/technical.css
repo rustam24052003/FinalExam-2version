@@ -1,0 +1,51 @@
+.t_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_one_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_more {
+    display: block;
+    width: 150px;
+    font-family: "Karla", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #A06056;
+    position: relative;
+}
+
+.btn_more:after {
+    content: "";
+    background-image: url("../icons/arrow/Right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 10px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 7px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: btnMore;
+}
+
+/*Icon Animation BTN-MORE*/
+@-webkit-keyframes btnMore {
+    0% {
+        transform: translateX(14px);
+    }
+
+    50% {
+        transform: translateX(7px);
+    }
+
+    100% {
+        transform: translateX(14px);
+    }
+}

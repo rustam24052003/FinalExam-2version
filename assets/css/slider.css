@@ -1,0 +1,117 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    flex: 0 0 100%;
+    display: none;
+}
+
+.slider_wrapper {
+    display: flex;
+}
+
+.wrapper_h3 {
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: textAnimation;
+}
+
+@-webkit-keyframes textAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.slider_wrapper h3 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.6px;
+    color: #A06056;
+    position: absolute;
+    top: 130px;
+    right: 30px;
+}
+
+.slide img {
+    max-height: 350px;
+    min-height: 350px;
+    object-fit: cover;
+}
+
+.custom-prev-button {
+    display: none;
+}
+
+.custom-prev-button,
+.custom-next-button {
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #A06056;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+.custom-next-button:hover:after {
+    content: "";
+    background-image: url("../icons/arrow/next.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 14px;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 7px;
+    animation-duration: 4s;
+    animation-name: btnNext;
+}
+
+@-webkit-keyframes btnNext {
+    0% {
+        opacity: 0;
+        transform: translateX(0px);
+        transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(7px);
+    }
+}
+
+.custom-slide-number {
+    margin-top: 10px;
+    color: rgba(112, 100, 88, 0.9);
+}
+
+.btn_section {
+    display: flex;
+    gap: 145px;
+    margin-top: 48px;
+}
+
+.section_your_room h1 {
+    margin-bottom: 48px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.6px;
+}

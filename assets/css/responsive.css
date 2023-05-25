@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px) {
+    .container_left {
+        margin-top: 70px;
+    }
+
+    .main_logo_wrapper {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .trends_right_side label {
+        width: 100%;
+    }
+
+    .trends_right_side input {
+        width: 100%;
+    }
+
+    .trends_right_side > button {
+        margin-top: 28px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .trends_footer {
+        text-align: center;
+    }
+
+    .trends_footer ul {
+        padding: 0;
+    }
+
+    .footer_title_text {
+        color: #121212;
+    }
+
+    .section_footer ul li:first-child {
+        margin-bottom: 10px;
+    }
+
+    .section_footer ul li:last-child {
+        margin-bottom: 40px;
+    }
+
+    .copyright_icons ul {
+        margin-bottom: 40px;
+    }
+
+
+    .section_your_room h1 {
+        color: #534B42;
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.3px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .container_left {
+        text-align: center;
+        z-index: 10;
+        max-width: unset;
+    }
+
+    .container_left > h5 {
+        color: #ffffff;
+    }
+
+    .container_left > h1 {
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        margin: 24px 0;
+    }
+
+    .container_left > p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #F7F8F9;
+    }
+
+    .container_left a {
+        margin-top: 44px;
+        filter: grayscale(1) brightness(1000%);
+        left: unset;
+    }
+
+    .desktop_menu {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: unset;
+    }
+
+    .mobile_menu_elements > a:first-child {
+        filter: grayscale(1) brightness(1000%);
+    }
+
+    .project_left > h1 {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: -0.3px;
+    }
+
+    .one_card_project {
+        padding: 0;
+    }
+
+    .your_project_subtitle {
+        margin-bottom: 40px;
+    }
+
+    .btn_more {
+        margin-bottom: 30px;
+    }
+
+    .trends_right_side {
+        display: unset;
+    }
+
+    .section_copyright-area {
+        padding-bottom: 20px;
+    }
+
+    .display_none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container_left {
+        margin-top: 10px;
+    }
+}
