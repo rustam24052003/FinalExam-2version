@@ -17,12 +17,12 @@ a {
     color: inherit;
 }
 
-a:focus,
-a:active,
-a::before,
-a::after {
-    all: unset;
-}
+/*a:focus,*/
+/*a:active,*/
+/*a::before,*/
+/*a::after {*/
+/*    all: unset;*/
+/*}*/
 
 a:hover {
     cursor: pointer;

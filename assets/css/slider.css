@@ -115,3 +115,18 @@
     line-height: 60px;
     letter-spacing: -0.6px;
 }
+
+
+.slide {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*opacity: 0;*/
+    transition: 3s ease-in-out;
+}
+
+.slide.block {
+    opacity: 1;
+}
